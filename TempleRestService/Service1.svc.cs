@@ -19,13 +19,7 @@ namespace TempleRestService
         } 
         List<Devoters> IService1.GetListOfDevoters(string rqstAccessToken)
         {
-            string str = String.Empty;
-            string str1 = String.Empty;
-            string str11 = String.Empty;
-            string str1111 = String.Empty; string str11111 = String.Empty;
-            string str1111111 = String.Empty;
-            string str112 = String.Empty;
-            string str12 = String.Empty;
+           
              List<Devoters> devList=null;
              try {
                  if (!String.IsNullOrEmpty(rqstAccessToken)) {
